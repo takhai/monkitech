@@ -1,0 +1,37 @@
+﻿.video-section .pattern-overlay {
+background-color: rgba(0, 153, 153, 0.8);
+padding: 180px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+
+
+
+.video-section h1{
+font-size: 10vw;
+margin: 0 0 14px 0;
+font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+font-weight:bold;
+color:white;
+text-align:center;
+text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .video-section h1 {
+        font-size: 11vw; /*2.875rem;*/
+    }
+}
+
+.video-section h3{
+text-align:center;
+margin: 0 0 24px 0;
+font-size: 1.125em;
+font-weight: 500;
+font-family: 'Molengo', Helvetica, Arial, sans-serif;
+color: white;
+
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
