@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
 *{
   box-sizing: border-box;
 }
@@ -46,6 +49,12 @@ ul{
 
 .company-info{
   background:#0cc;
+}
+
+i.lead.call {
+  text-align: -webkit-center;
+  /* margin: auto; */
+  /* display: block; */
 }
 
 .company-info h3, .company-info ul{
