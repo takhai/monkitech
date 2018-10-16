@@ -1,8 +1,12 @@
 ﻿.video-section .pattern-overlay {
-background-color: rgba(0, 153, 153, 0.8);
-padding: 180px 0 32px;
-min-height: 496px; 
-/* Incase of overlay problems just increase the min-height*/
+    background-color: rgba(0, 153, 153, 0.8);
+    padding: 180px 0 32px;
+    min-height: 496px;
+    background: center/cover;
+    background-position: 0 0, 0 0, 0 0, 0 0;
+    background-image: linear-gradient(160deg, #009999d6, rgb(0, 153, 153) 100%, #009999), url(hack-capital.jpg);
+    background-image: -webkit-linear-gradient(160deg, #009999d6, rgb(0, 153, 153) 100%, #009999), url(hack-capital.jpg);
+    background-repeat: no-repeat;/* Incase of overlay problems just increase the min-height*/
 }
 
 
